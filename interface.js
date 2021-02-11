@@ -2,8 +2,8 @@ $(document).ready(function() {
   let thermostat = new Thermostat();
 
   function updateTemperature() {
-    $('#temperature').text(thermostat._temp);
-    $('#temperature').css('class', thermostat.usage());
+  $('#temperature').text(thermostat._temp);
+  $('#temperature').attr("class", thermostat.usage());
   }
 
   function updateStatus(status) {
