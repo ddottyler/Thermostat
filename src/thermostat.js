@@ -13,7 +13,7 @@ class Thermostat {
     this._temp = DEFAULT_TEMP;
     this._MINIMUM_TEMP = MIN_TEMP;
     this._maxTemp = SAVE_MODE_MAX;
-    this._saveStatus = true 
+    this._saveStatus = true;
   }
   
   increaseTemp() {
